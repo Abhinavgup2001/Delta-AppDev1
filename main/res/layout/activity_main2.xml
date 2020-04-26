@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mfm"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#7bdbdb"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <TextView
+        android:id="@+id/texy"
+        android:layout_width="220dp"
+        android:background="#faf8f2"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:gravity="right"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/timer"
+        android:background="#faf8f2"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:gravity="left"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/textview1"
+            android:layout_width="85dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="250dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="30sp"
+            android:background="@drawable/c_l"
+            android:textColor="#4f5450"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible"
+            >
+
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/textview2"
+            android:layout_width="85dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="30sp"
+            android:background="@drawable/c_l"
+            android:textColor="#4f5450"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/textview3"
+            android:layout_width="85dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="410dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="30sp"
+            android:background="@drawable/c_l"
+            android:textColor="#4f5450"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible"
+            >
+
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/textview4"
+            android:layout_width="80dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="410dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textSize="30sp"
+            android:background="@drawable/c_l"
+            android:textColor="#4f5450"
+            android:textStyle="bold"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+        </Button>
+    </LinearLayout>
+<Button
+    android:id="@+id/exit"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="580dp"
+    android:layout_marginLeft="85dp"
+    android:text="EXIT"
+    android:textSize="40sp"
+    android:gravity="center"
+android:textStyle="bold"
+
+
+
+>
+
+</Button>
+
+</RelativeLayout>
